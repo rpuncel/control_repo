@@ -1,4 +1,4 @@
-class role::ssh_client {
+class profile::ssh_client {
   host { '172.18.0.3':
     name => 'db.puppet.vm',
     ensure => 'present',
