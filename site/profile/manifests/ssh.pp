@@ -10,6 +10,6 @@ class profile::ssh_server {
 		ensure => present,
 		user   => 'root',
 		type   => 'ssh-rsa',
-		key    => '',
+		key    => 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDpShkD/rzSLkcPi5YzP09N+1FJh06X8ObJuPVjqurqHSU/NGCRfVLnq30hg9qmwdJgEeB/taG3DLAgkMbXZOOyPKbHsPoKxwr64DV5QQEvPqF6EnPMVViyPxnS9IBC1LJwLr2paQK69HMuYr+8FhCc6VTtjhMuDcf2wqmxUpmw6/DWv7GdkQaq/cB9DFsjMISKdGlf9vNIDDkVQwA34GzrCLdvTJ3W3kXgTMeROt04m+n1+g8mC5i1say1C3hbO74qrCv1L68O2NSrLPVFsprDUd/Bh7HSlnguVnEC32CfsJnNYOcZ4L/wos10wV9ERnizzIk4TjnCzzA6k85Zb7cN root@master.puppet.vm',
 	}
 }
