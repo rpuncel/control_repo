@@ -9,4 +9,8 @@ class profile::ssh_client {
     ensure => 'present',
     ip => '172.18.0.2',
   }
+  host { '172.18.0.4':
+    name   => 'minetest.puppet.vm',
+    ensure => 'present',
+    ip     => '172.18.0.4'
 }
